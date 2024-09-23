@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.hero {
+    background: #5FA7EE;
+    padding-top: 80px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+}
+
+.navbar {
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.box .nav-item {
+    column-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.nav-item li {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav.sticky {
+    background: #0779E4;
+    transition: background 0.3s ease;
+}
+.b-text{
+    position: relative;
+}
+
+.b-text h3{
+    background: #FFFFFF;
+    font-weight: 700;
+    color: #0779e4;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 4px 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.b-text h2{
+    font-weight: 400;
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.2;
+}
+.banner {
+    margin-top: 80px;
+    padding-bottom: 48px;
+}
+
+.typetop {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+.typewrite {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    white-space: pre-wrap;
+    font-weight: 400;
+    height: 60px;
+}
+.b-text p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 550px;
+    padding-top: 24px;
+    opacity: 70%;
+    line-height: 25px;
+}
+.btn{
+    background: #FFFFFF;
+    color: #0779E4;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    padding: 16px 24px;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition:0.5s ease;
+    cursor: pointer;
+    margin-bottom: 48px;
+    margin-top: 24px;
+}
+.btn:hover{
+    background: #0779E4;
+    color: #FFFFFF;
+}
+.btn-arrow{
+    padding-left: 8px;
+}
+.social-l p{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-right: 20px;
+}
